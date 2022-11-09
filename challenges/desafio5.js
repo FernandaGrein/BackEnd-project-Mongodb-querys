@@ -5,7 +5,7 @@ db.produtos.find(
     { vendidos: { $eq: 85 } }, 
     ],
   }, 
-  { nome: 1, vendidos: 1, curtidas: 1, _id: 0 },
+  { nome: 1, curtidas: 1, vendidos: 1, _id: 0 },
 ).sort(
   {
     vendidos: 1,
